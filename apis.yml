@@ -1,7 +1,26 @@
 aid: atypical-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/atypical-ai.png
 name: Atypical AI
-description: Atypical AI is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Atypical AI is an artificial-intelligence and learning-science lab building
+  generative-AI learning products for educators, learners, and content creators. Its flagship
+  product, ExamJam, is an AI tutor that pairs adaptive, personalized tutoring with trusted
+  exam content from major publishers (Pearson, McGraw Hill, Collins) to help students prepare
+  for and revise toward their exams. Founded in 2023 and based in San Francisco, the woman-owned
+  company builds personalized tutoring, exam preparation, content creation, collaboration, and
+  student-success measurement tools grounded in learning science. This profile was surfaced as
+  a portfolio company of bloomberg-beta; it publishes a consumer product surface (web + mobile)
+  and no public developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/atypical-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Education
+- EdTech
+- Learning Science
+- Generative AI
+- Tutoring
+- Exam Preparation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.atypicalai.com/
+- type: GettingStarted
+  url: https://www.atypicalai.com/get-started
+- type: Support
+  url: https://www.atypicalai.com/contact-us
+- type: TermsOfService
+  url: https://www.atypicalai.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.atypicalai.com/legal/privacy-policy
+- type: DomainSecurity
+  url: security/atypical-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
